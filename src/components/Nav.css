@@ -1,5 +1,6 @@
 .Nav {
-  background: rgba(255, 255, 255, 0.4);
+  background: black;
+  color: white;
   position: sticky;
   top: 0;
   z-index: 2;
@@ -133,7 +134,8 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: white;
+    background: black;
+    color: white;
     animation: Nav--Links 0.2s ease;
   }
 

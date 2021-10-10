@@ -33,7 +33,7 @@ export default function Home1() {
                       </div>
 
                       <div className="item2">
-                          <h2>"Pensamos por ti"</h2>
+                          <h2 className="titlei2">"Pensamos por ti"</h2>
                           
                         <p>En SUMMA  hablamos el mismo idioma que tú. Somos un equipo conformado por deportistas de alto rendimiento y profesionistas de marketing con gran experiencia en medios deportivos, entendemos cómo funcionan los deportes y lo digital en esta era. 
                         </p>
@@ -44,23 +44,9 @@ export default function Home1() {
             </div>
 
 
-            <div className="section2"> 
-                <div className="father-box">
-                    <div className="item1">
-                        
-                        <img src={Image}/>
-
-                      </div>
-
-                      <div className="item2">
-                          <h2>"Pensamos por ti"</h2>
-                          
-                        <p>En SUMMA  hablamos el mismo idioma que tú. Somos un equipo conformado por deportistas de alto rendimiento y profesionistas de marketing con gran experiencia en medios deportivos, entendemos cómo funcionan los deportes y lo digital en esta era. 
-                        </p>
-
-                    </div>
-
-                </div> 
+            <div className="section3"> 
+              
+                   
             </div>
 
 
