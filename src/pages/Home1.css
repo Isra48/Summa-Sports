@@ -19,20 +19,18 @@ p {
   font-size: 1.8rem;
 }
 
-img {
-  width: 100%;
-  height: auto;
-}
-
 /*Hero*/
 
 .hero {
-  background-color: black;
+  background-image: url('../img/Bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
   height: 90vh;
 }
 .header-content {
   color: white;
-  width: 45%;
+  width: 40%;
   position: relative;
   top: 12em;
   left: 8%;
@@ -40,6 +38,11 @@ img {
 .copies {
   display: flex;
   align-items: center;
+}
+
+.title {
+  font-size: 2.5em;
+  white-space: 0.5;
 }
 
 .header-content span {
@@ -62,4 +65,26 @@ img {
 }
 .btn {
   background-color: blue;
+}
+
+/*Section 2 */
+
+.section2 {
+  background-color: black;
+  height: 60vh;
+  color: azure;
+}
+.father-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem;
+}
+.item1 {
+  opacity: 0.7;
+}
+
+.item2 {
+  display: block;
+  width: 30vw;
 }
