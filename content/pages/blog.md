@@ -1,9 +1,14 @@
 ---
 template: BlogIndex
 slug: blog
-title: Blog Page
-featuredImage: 'https://ucarecdn.com/b6254577-26bf-4b79-aa9b-f3793e2aebdc/'
-subtitle: This is the blog page subtitle.
+title: Our work
+featuredImage: https://ucarecdn.com/99f4dcca-bc4a-4816-bd1d-c284d3cb90c0/-/preview/
+subtitle: |-
+  <!--StartFragment-->
+
+  # DEPORTISTAS HACIENDO MARKETING PARA DEPORTISTAS
+
+  <!--EndFragment-->
 meta:
   description: This is a meta description.
   title: Blog Page
