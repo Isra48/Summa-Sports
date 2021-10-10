@@ -59,8 +59,15 @@ export class Navigation extends Component {
 
     return (
       <nav className={`Nav ${active ? 'Nav-active' : ''}`}>
+
+
+        
+
+
         <div className="Nav--Container container">
-          <Link
+
+      {/*here are the logo of the menú*/}
+      <Link
             to="/"
             onClick={this.handleLinkClick}
             onKeyDown={this.handleLinkKeyDown}
@@ -68,8 +75,13 @@ export class Navigation extends Component {
             aria-label="Navigation"
             role="button"
           >
-            <Logo />
+            <Logo className="Logo" />
           </Link>
+          {/*here ends the logo */}
+
+
+          
+         
           <div className="Nav--Links">
             <NavLink to="/">Home</NavLink>
             <NavLink to="/components/">Components</NavLink>
