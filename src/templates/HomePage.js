@@ -1,12 +1,13 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
+import Home1 from '../pages/Home1'
 
 
 // Export Default HomePage for front-end
 const HomePage = ({ data: { page } }) => (
   <Layout>
-    <h1>hola tilin</h1>
+    <Home1/>
   </Layout>
 )
 
