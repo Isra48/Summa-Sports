@@ -73,7 +73,7 @@ p {
 
 .section2 {
   background-color: black;
-  height: 60vh;
+  height: auto;
   color: azure;
 }
 .father-box {
@@ -89,11 +89,26 @@ p {
 
 .item2 {
   display: block;
-  width: 30vw;
+  width: 40%;
 }
 .titlei2 {
   font-size: 2.5em;
   color: #0aaeb1;
+}
+
+@media screen and (max-width: 900px) {
+  .section2 {
+    height: auto;
+  }
+
+  .father-box {
+    display: block;
+    justify-content: center;
+    text-align: center;
+  }
+  .item2 {
+    width: 100%;
+  }
 }
 
 /*Secction 3  Services */
@@ -231,8 +246,8 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
   background-position-x: start;
-  width: 800px;
-  height: 400px;
+  width: 80%;
+  height: auto;
   margin-top: -0.5em;
   margin-left: -1.5em;
 }
@@ -240,4 +255,13 @@ p {
 .title4 {
   color: #ff0844;
   font-size: 2.5em;
+}
+
+@media screen and (max-width: 900px) {
+  .patern {
+    margin: 0;
+    background-position-x: center;
+    align-self: center;
+    width: 100%;
+  }
 }
