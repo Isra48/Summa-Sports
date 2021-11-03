@@ -6,6 +6,9 @@ import Patern from '../img/Patern.jpg'
 
 
 
+
+
+
 export default function Home1() {
     return (
         <div className="home">
@@ -97,8 +100,10 @@ export default function Home1() {
                 </div> 
             </div>
 
+
+
             
-           
+     
        
       
         
