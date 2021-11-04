@@ -1,8 +1,8 @@
 ---
 template: DefaultPage
-slug: default
-title: Default
-featuredImage: https://ucarecdn.com/7ec2ff8c-5ef7-4dd8-b551-baa44d114cc3/
+slug: Servicios
+title: Servicios
+featuredImage: https://ucarecdn.com/0cdf4d90-7dec-4a4e-96e1-195b2a3e676a/
 meta:
   description: test meta description
   title: test meta title
