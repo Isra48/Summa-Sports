@@ -106,8 +106,23 @@ p {
     justify-content: center;
     text-align: center;
   }
+  .item1 img {
+    width: 100%;
+  }
   .item2 {
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .title {
+    font-size: 1.5em;
+  }
+}
+@media screen and (max-width: 350px) {
+  .title {
+    text-align: center;
+    font-size: 1em;
   }
 }
 
@@ -229,14 +244,23 @@ p {
 }
 
 @media screen and (max-width: 1300px) {
+  .services__card {
+    width: 90%;
+  }
   .services__wrapper {
     grid-template-columns: 1fr 1fr;
   }
 }
 
 @media screen and (max-width: 768px) {
+  .section3 {
+    padding-left: 0;
+  }
   .services__wrapper {
     grid-template-columns: 1fr;
+  }
+  .services__card {
+    width: 100%;
   }
 }
 
