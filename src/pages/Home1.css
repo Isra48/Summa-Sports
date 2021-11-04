@@ -247,25 +247,27 @@ p {
   .services__card {
     width: 90%;
   }
-  .services__wrapper {
-    grid-template-columns: 1fr 1fr;
-  }
 }
 
 @media screen and (max-width: 768px) {
   .section3 {
+    padding-right: 0;
     padding-left: 0;
   }
   .services__wrapper {
     grid-template-columns: 1fr;
   }
   .services__card {
-    width: 100%;
+    justify-self: center;
+    width: 90%;
   }
 }
 
 /*Section4*/
 
+.item1-1 {
+  width: 50%;
+}
 .patern {
   background-repeat: no-repeat;
   background-size: cover;
@@ -282,6 +284,9 @@ p {
 }
 
 @media screen and (max-width: 900px) {
+  .item1-1 {
+    width: 100%;
+  }
   .patern {
     margin: 0;
     background-position-x: center;

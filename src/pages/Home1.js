@@ -80,7 +80,7 @@ export default function Home1() {
 
         <div className="section2">
           <div className="father-box">
-            <div className="item1">
+            <div className="item1-1">
               <img src={Patern} className="patern" />
             </div>
 
