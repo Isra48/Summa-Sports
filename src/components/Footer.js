@@ -13,7 +13,7 @@ export default () => (
   <div>
     <div className="links-footer">
       <div>
-        <h2 className="footer-title"> Summasports</h2>
+        <h2 className="footer-title"> SUMMASPORTS</h2>
 
       </div>
 
@@ -22,7 +22,7 @@ export default () => (
   
         <p className="copie-icons">Siguenos en nuestras redes:</p>
         <div className="social-icons"> 
-        <FaFacebookF/> 
+        <FaFacebookF/> {' '} <a href="https://thriveweb.com.au/">Thrive</a>.
         <FaInstagram/>
         <FaTiktok/> 
         

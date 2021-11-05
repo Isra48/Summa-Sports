@@ -2,6 +2,7 @@ import React from 'react'
 import './Home1.css'
 import Image from '../img/section2.jpg'
 import Patern from '../img/Patern.jpg'
+import { FaFacebookF } from "@react-icons/all-files/fa/FaFacebookF";
 
 export default function Home1() {
   return (
@@ -14,7 +15,7 @@ export default function Home1() {
             </h1>
           </div>
 
-          <a className="btn"> hola putos </a>
+          <a className="btn"> Contacto</a>
         </div>
       </div>
 
@@ -97,6 +98,30 @@ export default function Home1() {
             </div>
           </div>
         </div>
+
+        <div className="section4">
+          <h3 className="h3s4">Más que solo servicios</h3>
+          <div className="items4">
+
+
+            <FaFacebookF/>
+            <h4> Strategy</h4>
+            <p>Strategic masterplans and business/concept strategy</p>
+            <FaFacebookF/>
+            <h4> Strategy</h4>
+            <p>Strategic masterplans and business/concept strategy</p>
+            <FaFacebookF/>
+            <h4> Strategy</h4>
+            <p>Strategic masterplans and business/concept strategy</p>
+            <FaFacebookF/>
+            <h4> Strategy</h4>
+            <p>Strategic masterplans and business/concept strategy</p>
+
+
+          </div>
+
+        </div>
+
       </div>
     </div>
   )

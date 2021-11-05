@@ -66,7 +66,12 @@ p {
   -mo-text-fill-color: transparent;
 }
 .btn {
-  background-color: blue;
+  background-color: black;
+  color: #f2f2f2;
+  padding: 0.5em;
+  border-radius: 5px;
+  font-size: 1.2em;
+  font-weight: 500;
 }
 
 /*Section 2 */
@@ -293,4 +298,17 @@ p {
     align-self: center;
     width: 100%;
   }
+}
+
+.section4 {
+  padding: 1.5em;
+}
+.h3s4 {
+  font-weight: bold;
+  font-size: 2em;
+  margin-bottom: 2em;
+}
+
+.items4 {
+  display: flex;
 }
