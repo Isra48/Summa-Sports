@@ -1,13 +1,45 @@
 import React from 'react'
 import './Footer.css'
+import { FaFacebookF } from "@react-icons/all-files/fa/FaFacebookF";
+import {FaInstagram} from "react-icons/fa";
+import {FaTiktok} from "react-icons/fa";
+
+
+
+
+
 
 export default () => (
   <div>
-    <h2 className="taCenter">
-      Follow us{' '}
-      <a href="https://instagram.com/thrivegoldcoast/">@thrivegoldcoast</a>
-    </h2>
-    <br />
+    <div className="links-footer">
+      <div>
+        <h2 className="footer-title"> Summasports</h2>
+
+      </div>
+
+      <div>
+     
+  
+        <p className="copie-icons">Siguenos en nuestras redes:</p>
+        <div className="social-icons"> 
+        <FaFacebookF/> 
+        <FaInstagram/>
+        <FaTiktok/> 
+        
+
+        </div>
+        
+       
+        
+
+
+      </div>
+
+
+    </div>
+   
+    
+
     <footer className="footer">
       <div className="container taCenter">
         <span>

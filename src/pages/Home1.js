@@ -47,7 +47,7 @@ export default function Home1() {
               cantidad de posibilidad de nuevos clientes.
             </p>
             <div class="services__btn">
-              <button>Get Started</button>
+              <button>Empezar</button>
             </div>
           </div>
 
@@ -55,7 +55,7 @@ export default function Home1() {
             <h2>Web Development</h2>
             <p>Tu carta de presentación en esta era digital.</p>
             <div class="services__btn">
-              <button>Get Started</button>
+              <button>Empezar</button>
             </div>
           </div>
 
@@ -63,7 +63,7 @@ export default function Home1() {
             <h2>E-commerce</h2>
             <p>La cercania con tus clientes 24/7</p>
             <div class="services__btn">
-              <button>Get Started</button>
+              <button>Empezar</button>
             </div>
           </div>
           <div class="services__card">
@@ -73,7 +73,7 @@ export default function Home1() {
               equipo correcto.
             </p>
             <div class="services__btn">
-              <button>Get Started</button>
+              <button>Empezar</button>
             </div>
           </div>
         </div>
