@@ -1,6 +1,6 @@
 ---
 template: ComponentsPage
-slug: components
+slug: nosotros
 title: Nosotros
 featuredImage: https://ucarecdn.com/4ed41de5-f17a-4e77-9542-eae0ee2ee53a/
 subtitle: |-
