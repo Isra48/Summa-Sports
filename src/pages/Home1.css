@@ -272,7 +272,10 @@ p {
 }
 
 /*Section4*/
-
+.section4 {
+  padding: 2.5em;
+  padding-top: 1em;
+}
 .item1-1 {
   width: 50%;
 }
