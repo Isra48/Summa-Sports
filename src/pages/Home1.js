@@ -18,9 +18,8 @@ export default function Home1() {
               DEPORTISTAS HACIENDO <span>MARKETING PARA DEPORTISTAS </span>
             </h1>
           </div>
-          <Link to="/contact/">
-            {' '}
-            <a className="btn"> Contacto</a>
+          <Link className="btn" to="/contact/">
+            Contacto
           </Link>
         </div>
       </div>
@@ -46,46 +45,46 @@ export default function Home1() {
 
       <div className="section3">
         <h1 className="titles3">SERVICIOS</h1>
-        <div class="services__wrapper">
-          <div class="services__card">
+        <div className="services__wrapper">
+          <div className="services__card">
             <h2>Social Media</h2>
             <p>
               La interacción que tienes en tus redes es proporcional a la
               cantidad de posibilidad de nuevos clientes.
             </p>
-            <div class="services__btn">
+            <div className="services__btn">
               <Link to="/servicios/">
                 <button>Empezar</button>
               </Link>
             </div>
           </div>
 
-          <div class="services__card">
+          <div className="services__card">
             <h2>Web Development</h2>
             <p>Tu carta de presentación en esta era digital.</p>
-            <div class="services__btn">
+            <div className="services__btn">
               <Link to="/servicios/">
                 <button>Empezar</button>
               </Link>
             </div>
           </div>
 
-          <div class="services__card">
+          <div className="services__card">
             <h2>E-commerce</h2>
             <p>La cercania con tus clientes 24/7</p>
-            <div class="services__btn">
+            <div className="services__btn">
               <Link to="/servicios/">
                 <button>Empezar</button>
               </Link>
             </div>
           </div>
-          <div class="services__card">
+          <div className="services__card">
             <h2>Events planning</h2>
             <p>
               ¿Quieres marcar tendencia en el mundo de los eventos? Estás con el
               equipo correcto.
             </p>
-            <div class="services__btn">
+            <div className="services__btn">
               <Link to="/servicios/">
                 <button>Empezar</button>
               </Link>
