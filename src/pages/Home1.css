@@ -67,11 +67,13 @@ p {
 }
 .btn {
   background-color: black;
-  color: #f2f2f2;
+  color: #0aaeb1;
   padding: 0.5em;
   border-radius: 5px;
   font-size: 1.2em;
   font-weight: 500;
+  border: 1px solid #0aaeb1;
+  text-decoration: transparent;
 }
 
 /*Section 2 */
@@ -236,6 +238,7 @@ p {
   border-radius: 4px;
   background: #131313;
   font-size: 1rem;
+  border: 1px solid #0aaeb1;
 }
 
 .services__card button:hover {
@@ -280,7 +283,7 @@ p {
   width: 80%;
   height: auto;
   margin-top: -0.5em;
-  margin-left: -1.5em;
+  margin-left: -4em;
 }
 
 .title4 {
@@ -305,10 +308,51 @@ p {
 }
 .h3s4 {
   font-weight: bold;
-  font-size: 2em;
-  margin-bottom: 2em;
+  font-size: 2.5em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  -webkit-text-stroke: 0.5px WHITE;
+  color: transparent;
 }
 
 .items4 {
   display: flex;
+  justify-content: space-around;
+  text-align: left;
+  padding: 2em;
+}
+h4 {
+  color: #f2f2f2;
+  font-size: 1.5em;
+  font-weight: 500;
+  margin-bottom: -0.5em;
+}
+.icons4 {
+  display: flex;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 4rem;
+  width: 4rem;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1em;
+}
+
+.ps4 {
+  font-size: 0.9em;
+}
+
+@media screen and (max-width: 650px) {
+  .items4 {
+    display: block;
+    text-align: center;
+  }
+  .icons4 {
+    background-color: #ff6a;
+    margin: auto;
+  }
+  .itemsiconss4 {
+    padding: 1.8em;
+  }
 }

@@ -2,6 +2,11 @@ import React from 'react'
 import './Home1.css'
 import Image from '../img/section2.jpg'
 import Patern from '../img/Patern.jpg'
+import { Link } from 'gatsby'
+
+
+
+
 
 export default function Home1() {
   return (
@@ -13,8 +18,8 @@ export default function Home1() {
               DEPORTISTAS HACIENDO <span>MARKETING PARA DEPORTISTAS </span>
             </h1>
           </div>
-
-          <a className="btn"> Contacto</a>
+          <Link to="/contact/">  <a className="btn"> Contacto</a></Link>
+         
         </div>
       </div>
 
@@ -47,7 +52,10 @@ export default function Home1() {
               cantidad de posibilidad de nuevos clientes.
             </p>
             <div class="services__btn">
+              <Link to="/servicios/">
               <button>Empezar</button>
+              </Link>
+              
             </div>
           </div>
 
@@ -55,7 +63,9 @@ export default function Home1() {
             <h2>Web Development</h2>
             <p>Tu carta de presentación en esta era digital.</p>
             <div class="services__btn">
+            <Link to="/servicios/">
               <button>Empezar</button>
+              </Link>
             </div>
           </div>
 
@@ -63,7 +73,9 @@ export default function Home1() {
             <h2>E-commerce</h2>
             <p>La cercania con tus clientes 24/7</p>
             <div class="services__btn">
+            <Link to="/servicios/">
               <button>Empezar</button>
+              </Link>
             </div>
           </div>
           <div class="services__card">
@@ -73,7 +85,9 @@ export default function Home1() {
               equipo correcto.
             </p>
             <div class="services__btn">
+            <Link to="/servicios/">
               <button>Empezar</button>
+              </Link>
             </div>
           </div>
         </div>
@@ -99,18 +113,41 @@ export default function Home1() {
         </div>
 
         <div className="section4">
+       
           <h3 className="h3s4">Más que solo servicios</h3>
           <div className="items4">
+            <div className="itemsiconss4">
+           < div className="icons4"style={{backgroundImage: `url(/images/logo.svg)`}} />
             <h4> Strategy</h4>
-            <p>Strategic masterplans and business/concept strategy</p>
-            <h4> Strategy</h4>
-            <p>Strategic masterplans and business/concept strategy</p>
+            <p className="ps4">Estrategia <br/> empresarial/ conceptual</p>
+            </div>
 
-            <h4> Strategy</h4>
-            <p>Strategic masterplans and business/concept strategy</p>
+            <div className="itemsiconss4">
+            < div className="icons4"style={{backgroundImage: `url(/images/logo.svg)`}} />
+            <h4> Concept</h4>
+            <p className="ps4">Materializamos <br/> tu idea </p>
+            </div>
 
-            <h4> Strategy</h4>
-            <p>Strategic masterplans and business/concept strategy</p>
+            <div className="itemsiconss4">
+            < div className="icons4"style={{backgroundImage: `url(/images/logo.svg)`}} />
+            <h4> Campaign</h4>
+            <p className="ps4" >Campañas de alto <br/> impacto social</p>
+            </div>
+
+            <div className="itemsiconss4">
+            < div className="icons4"style={{backgroundImage: `url(/images/logo.svg)`}} />
+            <h4> Production</h4>
+            <p className="ps4">Creadores de <br/> contenido multimedia</p>
+            </div>
+           
+            
+            
+          </div>
+
+
+          <div>
+
+
           </div>
         </div>
       </div>

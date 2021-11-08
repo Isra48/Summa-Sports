@@ -30,8 +30,8 @@ export default () => (
     <footer className="footer">
       <div className="container taCenter">
         <span>
-          © Copyright {new Date().getFullYear()} All rights reserved. Crafted by{' '}
-          <a href="">Flipapps</a>.
+          © Copyright {new Date().getFullYear()} All rights reserved. Made with love by{' '}
+          <a href="" style={{color: "#F2E205"}}>Flipapps</a>.
         </span>
       </div>
     </footer>
