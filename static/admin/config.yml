@@ -137,15 +137,15 @@ collections: # A list of collections the CMS should be able to edit
                   required: false,
                 }
 
-      - file: 'content/pages/contact.md'
-        label: 'Contact Page'
-        name: 'contact-page'
+      - file: 'content/pages/nosotros.md'
+        label: 'Nosotros'
+        name: 'nosotros'
         fields:
           - {
               label: Template,
               name: template,
               widget: hidden,
-              default: ComponentsPage,
+              default: nosotros,
             }
           - { label: Slug, name: slug, widget: hidden, default: 'components' }
           - { label: Title, name: title, widget: string }
