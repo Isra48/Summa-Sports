@@ -15,6 +15,7 @@ export default ({
     data-netlify-honeypot="_gotcha"
   >
     <label className="Form--Label">
+      Nombre
       <input
         className="Form--Input"
         type="text"
@@ -24,10 +25,11 @@ export default ({
       />
     </label>
     <label className="Form--Label">
+      Correo
       <input
         className="Form--Input"
         type="email"
-        placeholder="Email"
+        placeholder="Correo"
         name="email"
         required
       />
@@ -40,14 +42,17 @@ export default ({
         required
       >
         <option disabled hidden>
-          Type of Enquiry
+          Asunto
         </option>
-        <option>Need to know more</option>
-        <option>Found a bug</option>
-        <option>Want to say hello</option>
+        <option>Campaña</option>
+        <option>Social media</option>
+        <option>E-commerce</option>
+        <option>Desarrollo web</option>
+        <option>Creación a medida</option>
       </select>
     </label>
     <label className="Form--Label">
+      Mensaje
       <textarea
         className="Form--Input Form--Textarea"
         placeholder="Message"
@@ -59,10 +64,6 @@ export default ({
     <input type="text" name="_gotcha" style={{ display: 'none' }} />
     {!!subject && <input type="hidden" name="subject" value={subject} />}
     <input type="hidden" name="form-name" value={name} />
-    <input
-      className="Button Form--SubmitButton"
-      type="submit"
-      value="Enquire"
-    />
+    <input className="Button Form--SubmitButton" type="submit" value="Enviar" />
   </form>
 )
