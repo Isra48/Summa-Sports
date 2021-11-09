@@ -32,15 +32,12 @@ accordion:
   - description: Taciti lorem tempor quam vestibulum dis habitasse
     title: Taciti lorem
 gallery:
-  - alt: yellow rope image
-    image: https://ucarecdn.com/277cdf82-24aa-4d80-8169-bb46f4cd319d/
-    title: Yellow Rope
-  - alt: umbrellas
-    image: https://ucarecdn.com/5da63204-4ff0-4235-aac3-852921d7c632/
-    title: a bunch of umbrellas
-  - alt: yellow ice cream
-    image: https://ucarecdn.com/83485d70-1552-4c97-b237-22330fb56a1e/
-    title: Yellow Ice Cream
+  - alt: Diana Hernandez
+    image: https://ucarecdn.com/0176e161-0fa3-4d20-b9fa-a25a3f9c0bd6/
+    title: Diana Hernandez
+  - alt: Orlando Larrea
+    image: https://ucarecdn.com/58f0b743-cd98-4bd7-a5f3-3df3370b3947/
+    title: Orlando Larrea
 meta:
   description: This is a meta description.
   title: Nosotros
