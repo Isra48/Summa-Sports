@@ -6,7 +6,7 @@ import { Link } from 'gatsby'
 import Box from '../img/icons2/Box.svg'
 import Landscape from '../img/icons2/Landscape.svg'
 import Reel from '../img/icons2/Reel.svg'
-import Target from '../img/icons2/target.svg'
+import Target from '../img/icons2/Target.svg'
 
 export default function Home1() {
   return (
