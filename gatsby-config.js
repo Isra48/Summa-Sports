@@ -94,7 +94,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-whatshelp',
       options: {
-        whatsapp: '+525566295600', // WhatsApp number
+        whatsapp: '+525523185400', // WhatsApp number
         company_logo_url:
           'https://static.ucraft.net/fs/ucraft/userFiles/sportsmarketing/images/logo.png?v=1589585180', // URL of company logo (png, jpg, gif)
         greeting_message: 'Hello', // Text of greeting message
