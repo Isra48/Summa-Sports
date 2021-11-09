@@ -3,7 +3,7 @@ import { MapPin, Smartphone, Mail } from 'react-feather'
 import { graphql } from 'gatsby'
 
 import PageHeader from '../components/PageHeader'
-import FormSimpleAjax from '../components/FormSimpleAjax'
+import FormSimple from '../components/FormSimple'
 import Content from '../components/Content'
 import Layout from '../components/Layout'
 import './ContactPage.css'
@@ -56,12 +56,10 @@ export const ContactPageTemplate = ({
         </div>
 
         <div>
-          <FormSimpleAjax name="Simple Form Ajax" />
+          <FormSimple name="Simple Form" />
         </div>
       </div>
     </section>
-
-   
   </main>
 )
 
@@ -89,7 +87,6 @@ export const pageQuery = graphql`
         address
         phone
         email
-       
       }
     }
   }

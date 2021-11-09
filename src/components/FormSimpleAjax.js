@@ -91,10 +91,10 @@ class Form extends React.Component {
                 name="lastname"
                 required
               />
-              <span>Apelliddos</span>
+              <span>Apellidos</span>
             </label>
           </div>
-         
+
           <label className="Form--Label">
             <input
               className="Form--Input Form--InputText"
@@ -119,7 +119,7 @@ class Form extends React.Component {
               <option>Social media</option>
               <option>E-commerce</option>
               <option>Desarrollo web</option>
-              <option>Creación a medida</option>              
+              <option>Creación a medida</option>
             </select>
           </label>
           <label className="Form--Label">
