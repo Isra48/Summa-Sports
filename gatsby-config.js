@@ -92,6 +92,28 @@ module.exports = {
       }
     },
     {
+      resolve: 'gatsby-plugin-whatshelp',
+      options: {
+        whatsapp: '+525566295600', // WhatsApp number
+        company_logo_url:
+          'https://static.ucraft.net/fs/ucraft/userFiles/sportsmarketing/images/logo.png?v=1589585180', // URL of company logo (png, jpg, gif)
+        greeting_message: 'Hello', // Text of greeting message
+        call_to_action: 'Call to Action', // Call to action
+        button_color: '#b02030', // Color of button
+        position: 'right', // Position may be 'right' or 'left'
+        order: 'whatsapp', // Order of buttons
+        ga: true, // Google Analytics enabled
+        branding: false, // Show branding string
+        mobile: true, // Mobile version enabled
+        desktop: true, // Desktop version enabled
+        greeting: true, // Greeting message enabled
+        shift_vertical: 0, // Vertical position, px
+        shift_horizontal: 0, // Horizontal position, px
+        domain: 'https://infallible-lumiere-0c53fd.netlify.app/', // site domain
+        key: 'xxx' // pro-widget key
+      }
+    },
+    {
       resolve: 'gatsby-plugin-nprogress',
       options: {
         // Setting a color is optional.
